@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: ai-models-puyun
+Version: 0.1.0
+Summary: An ai-models plugin to run PuYun
+Home-page: https://github.com/tpys/ai-models-puyun
+Author: European Centre for Medium-Range Weather Forecasts (ECMWF)
+Author-email: software.support@ecmwf.int
+License: Apache License Version 2.0
+Keywords: tool
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: OS Independent
+Requires-Python: <3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ai-models
+Requires-Dist: onnx
+Requires-Dist: onnxruntime-gpu
+
+# ai-models-puyun
+
+`ai-models-puyun` is an [ai-models](https://github.com/ecmwf-lab/ai-models) plugin to run [Metacarbon's PuYun].
+
+PuYun: Medium-Range Global Weather Forecasting Using Large Kernel Attention Convolutional Networks,arXiv:2409.02123v2. https://arxiv.org/abs/2409.02123
+
+PuYun was created by Shengchen Zhu, Yiming Chen, Peiying Yu, Xiang Qu, Yuxiao Zhou, Yiming Ma, Zhizhan Zhao, Yukai Liu, Hao Mi, Bin Wang. It is released by Metacarbon.
+
+
+For use other input data eg: ERA5 and GFS see 「」 for further details.
+
+
+### Installation
+
+To install the package, run:
+
+```bash
+pip install ai-models
+pip install ai-models-puyun
+```
+
+This will install the package and its dependencies, in particular the ONNX runtime. The installation script will attempt to guess which runtime to install. You can force a given runtime by specifying the the `ONNXRUNTIME` variable, e.g.:
+
+```bash
+ONNXRUNTIME=onnxruntime-gpu pip install ai-models-ouyun
+```

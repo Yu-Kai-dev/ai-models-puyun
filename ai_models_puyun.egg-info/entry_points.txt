@@ -1,0 +1,2 @@
+[ai_models.model]
+puyun = ai_models_puyun.model:PuYun
