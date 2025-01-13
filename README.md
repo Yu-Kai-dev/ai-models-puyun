@@ -11,7 +11,7 @@ PuYun was created by Shengchen Zhu, Yiming Chen, Peiying Yu, Xiang Qu, Yuxiao Zh
 To install the package, run:
 
 ```bash
-pip install ai-models
+pip install ai-models==0.6.4
 pip install ai-models-puyun
 ```
 
