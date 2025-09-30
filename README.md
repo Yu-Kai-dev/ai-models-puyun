@@ -24,7 +24,7 @@ ONNXRUNTIME=onnxruntime-gpu pip install ai-models-puyun
 For the ONNX file: Please contact the email address below and send an email stating your request and purpose. We will contact you and send you the ONNX files of the model:
 
 ```
-    <zhushengchen@metac-inc.com>
+    <zhushengchen@kunbyte.com>
 ```
 
 When we receive your email, it means that you have accepted the open source license of ECMWF/ai-models.
